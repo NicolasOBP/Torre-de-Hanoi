@@ -8,7 +8,7 @@ public class Entradas {
         String text = teclado.nextLine();
 
         if (text.trim().equals("")) {
-            System.out.println("Tem que ser apenas uma letra\n");
+            System.out.println("Tem que ser apenas uma letr\n");
             return texto(mensagem);
         } else {
             return text;
